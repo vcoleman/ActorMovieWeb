@@ -3,15 +3,14 @@ ia = IMDb()
 
 moviesDict={}
 
-for number in range(10):
-	idNumber = str(number)
+for number in range(100):
+	idNumber = str(number+1)
 	idNumber = "0"*(7-len(idNumber)) + idNumber
 
-
 	movie = ia.get_movie(idNumber)
-	title = movie['title']
-	if title != '':
-		try: 
+	try: 
+		title = movie['title']
+		if title != '':
 			persons = movie['actors']
 			actors = []
 			i = 0
@@ -22,8 +21,8 @@ for number in range(10):
 				except: 
 					continue
 			moviesDict[title] = actors
-		except: 
-			continue
+	except: 
+		continue
 
 print moviesDict
 
