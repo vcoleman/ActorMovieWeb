@@ -1,5 +1,5 @@
-ActorMovieWeb
-=============
+Re(un)-Vamped Oracle of Bacon
+=============================
 
 This is a new implementation of the classic oracle of bacon http://oracleofbacon.org/ using MongoDB.
 
@@ -12,5 +12,8 @@ To run this program there are several steps you must follow.
 5. Rename actors.list.tsv and actresses.list.tsv to actors.list.csv and actresses.list.csv
 6. Run parselonglist.py with a MongoDB port open on your computer
 7. Change parselonglist.py to take in the opposite script (either actors.list.csv or actresses.list.csv, whichever it has not already parsed)
-8. Run parselonglist_movies.py
-9. Change parselonglist_movies.py to take in the opposite script (either actors.list.csv or actresses.list.csv, whichever it has not already parsed)
+8. Run parselonglist.py again.
+9. Run parselonglist_movies.py
+10. Change parselonglist_movies.py to take in the opposite script (either actors.list.csv or actresses.list.csv, whichever it has not already parsed)
+11. Run parselonglist_movies.py again.
+12. Finally, run recursiveSearch.py in the terminal to explore the oracle of bacon - the terminal will ask you to input two actors and it will give you the shortest path between the two actors.
