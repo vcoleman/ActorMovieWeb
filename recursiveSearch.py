@@ -7,8 +7,7 @@ db = client.ActorList
 actors = db.actors
 movies = db.movies
 
-# start_actor = 'Kevin BaconI'
-
+#Examples of actors that work in the search
 start_actor = 'Johnny Depp'
 end_actor = 'Meryl Streep'
 flag = 0
