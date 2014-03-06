@@ -10,7 +10,7 @@ db.movies.remove()
 
 moviesDict = {}
 
-with open('softsysdb-master/imdb-data-parser-master/outputdata/2014-03-05_120756_ImdbParserOutput/actresses.csv', 'rb') as actorslist:
+with open('actresses.list.csv', 'rb') as actorslist:
     actorsreader = csv.DictReader(actorslist, ["actor_first", "actor_last", "movie"])
     for row in actorsreader:
         lastName = row['actor_last']
@@ -39,7 +39,10 @@ with open('softsysdb-master/imdb-data-parser-master/outputdata/2014-03-05_120756
     print "now to store...."
     for key, value in moviesDict.iteritems():
         value
-        print key
-        movies.update({"movie":key}, {"actors": value}, upsert=True)
+#         print key
+        movie = {"movie":key, 
+                "actors": value}
+        movie_id = movies.insert(movie)
+        # movies.update({"movie":key}, {"actors": value}, upsert=True)
 
 print movies.count()
