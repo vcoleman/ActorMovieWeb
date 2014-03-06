@@ -1,0 +1,601 @@
+INFO - mode:TSV
+INFO - input_dir:inputdata
+INFO - output_dir:outputdata/2014-03-05_134709_ImdbParserOutput
+INFO - update_lists:False
+INFO - Parsing, please wait. This may take very long time...
+INFO - ___________________
+INFO - Parsing actors...
+INFO - Trying to find file: inputdata/actors.list
+INFO - File found: inputdata/actors.list
+CRITICAL - This line is fucked up: -----------------------------------------------------------------------------
+
+CRITICAL - This line is fucked up: SUBMITTING UPDATES
+
+CRITICAL - This line is fucked up: ==================
+
+CRITICAL - This line is fucked up: We rely on users of the database to submit corrections and additions to keep 
+
+CRITICAL - This line is fucked up: the list as accurate and complete as possible. The most convenient method
+
+CRITICAL - This line is fucked up: of submitting them is via the movie mail-server's central collection service. 
+
+CRITICAL - This line is fucked up: For a comprehensive guide send an e-mail message with the subject: 
+
+CRITICAL - This line is fucked up:   HELP ADD FULL
+
+CRITICAL - This line is fucked up: to <mail-server@imdb.com>. 
+
+CRITICAL - This line is fucked up: The instructions specific to the actors list are given below.
+
+CRITICAL - This line is fucked up: KEYWORD INTERFACE
+
+CRITICAL - This line is fucked up: =================
+
+CRITICAL - This line is fucked up: This is the most flexible interface but can appear quite complex if you aren't
+
+CRITICAL - This line is fucked up: familiar with the organization of the database. 
+
+CRITICAL - This line is fucked up: Additions
+
+CRITICAL - This line is fucked up: ---------
+
+CRITICAL - This line is fucked up: (1) mark the start of the data with the word:
+
+CRITICAL - This line is fucked up:     ACTOR
+
+CRITICAL - This line is fucked up: (2) for each addition, include on a separate line an entry of the form:
+
+CRITICAL - This line is fucked up:      <name>|<title>|<attributes>|<character name>|<order>
+
+CRITICAL - This line is fucked up:     where:
+
+CRITICAL - This line is fucked up:      <name> is the actors name in <surname>, <firstname> order. Please note
+
+CRITICAL - This line is fucked up:             the space after the comma as in: "Grant, Cary". 
+
+CRITICAL - This line is fucked up:      <title> is the title of the movie or TV-series in which the actor 
+
+CRITICAL - This line is fucked up:              appeared, please include the year of release as part of the title
+
+CRITICAL - This line is fucked up:              (see examples below).
+
+CRITICAL - This line is fucked up:      <attributes> records any award nominations or wins and in most cases will
+
+CRITICAL - This line is fucked up:                   be empty. Example attributes include:
+
+CRITICAL - This line is fucked up:        (AA)           = academy award winner (best actor)
+
+CRITICAL - This line is fucked up:        (AAN)          = academy award nominee (best actor)
+
+CRITICAL - This line is fucked up:        (S:AA)         = academy award winner (best supporting actor)
+
+CRITICAL - This line is fucked up:        (S:AAN)        = academy award nominee (best supporting actor)
+
+CRITICAL - This line is fucked up:        (GG)           = golden globe winner (best drama actor)
+
+CRITICAL - This line is fucked up:        (GGN)          = golden globe nominee (best drama actor)
+
+CRITICAL - This line is fucked up:      <character name>  is the character name of the actor.
+
+CRITICAL - This line is fucked up:      <order> is a number to record the position in which the actor appears in
+
+CRITICAL - This line is fucked up:              the credits (1=star billing)
+
+CRITICAL - This line is fucked up:     The full additions guide contains more information on the formats. 
+
+CRITICAL - This line is fucked up:     Notes:
+
+CRITICAL - This line is fucked up:      - Apart from the <name> and <title> all these fields are optional, but
+
+CRITICAL - This line is fucked up:        please leave the "|" separator for any blank fields, otherwise the some
+
+CRITICAL - This line is fucked up:        of the data may be lost.
+
+CRITICAL - This line is fucked up:      - Guest appearances in TV-series are NOT eligible for the main actors and
+
+CRITICAL - This line is fucked up:        actresses list. The person must have played a recurring role across a 
+
+CRITICAL - This line is fucked up:        number of episodes in order to be included. See the section describing
+
+CRITICAL - This line is fucked up:        the biography database for an alternative method of adding this type of 
+
+CRITICAL - This line is fucked up:        information.
+
+CRITICAL - This line is fucked up:      - Please only credit individual names. For example, if all the members of
+
+CRITICAL - This line is fucked up:        a particular rock group appeared in a movie then include them under 
+
+CRITICAL - This line is fucked up:        their individual names and not the name of the whole group.
+
+CRITICAL - This line is fucked up:      - The actors and actresses sections are for people only. No animals.
+
+CRITICAL - This line is fucked up:     Examples:
+
+CRITICAL - This line is fucked up:     ACTOR
+
+CRITICAL - This line is fucked up:     Grant, Cary|North by Northwest (1959)||Rogert Thornhill|1
+
+CRITICAL - This line is fucked up:     Grant, Cary|Awful Truth, The (1937)|||1
+
+CRITICAL - This line is fucked up:     Grant, Cary|Philadelphia Story, The (1940)|||
+
+CRITICAL - This line is fucked up:     Hopkins, Anthony|Silence of the Lambs, The (1990)|(AA)||
+
+CRITICAL - This line is fucked up: (3) If the additions include a title that is new to the database, please also 
+
+CRITICAL - This line is fucked up:     include a section of the form:
+
+CRITICAL - This line is fucked up:     TITLE
+
+CRITICAL - This line is fucked up:     <title>|<year>|
+
+CRITICAL - This line is fucked up:     Example:
+
+CRITICAL - This line is fucked up:     
+
+CRITICAL - This line is fucked up:     TITLE
+
+CRITICAL - This line is fucked up:     North by Northwest (1959)|1959|
+
+CRITICAL - This line is fucked up:     Silence of the Lambs, The (1960)|1990|
+
+CRITICAL - This line is fucked up: (4) Mark the end of your data with the word
+
+CRITICAL - This line is fucked up:     END
+
+CRITICAL - This line is fucked up:     on a separate line.
+
+CRITICAL - This line is fucked up: (5) Mail the data to <add@imdb.com>. The mail-server will mail a receipt back
+
+CRITICAL - This line is fucked up:     to you and place the data in the queue for processing by the list managers 
+
+CRITICAL - This line is fucked up:     in the next update.
+
+CRITICAL - This line is fucked up: Character Name Additions
+
+CRITICAL - This line is fucked up: ------------------------
+
+CRITICAL - This line is fucked up: If you wish to add character names to *existing* entries in the database only,
+
+CRITICAL - This line is fucked up: use the keyword:
+
+CRITICAL - This line is fucked up:   CHARA
+
+CRITICAL - This line is fucked up: and the format:
+
+CRITICAL - This line is fucked up:   <name>|<title>|<character name>
+
+CRITICAL - This line is fucked up: Cast Ordering Additions
+
+CRITICAL - This line is fucked up: -----------------------
+
+CRITICAL - This line is fucked up: If you wish to add cast ordering information to *existing* entries in the 
+
+CRITICAL - This line is fucked up: database only, use the keyword:
+
+CRITICAL - This line is fucked up:   ORDER
+
+CRITICAL - This line is fucked up: and the format:
+
+CRITICAL - This line is fucked up:   <name>|<title>|<order>
+
+CRITICAL - This line is fucked up: Deletions
+
+CRITICAL - This line is fucked up: ---------
+
+CRITICAL - This line is fucked up: To delete an incorrect entry on the list, the format is similar to those 
+
+CRITICAL - This line is fucked up: described above, but a '!' character is placed at the start of each entry. The
+
+CRITICAL - This line is fucked up: format is:
+
+CRITICAL - This line is fucked up: ACTOR
+
+CRITICAL - This line is fucked up: !<name>|<title>|
+
+CRITICAL - This line is fucked up: For example:
+
+CRITICAL - This line is fucked up: ACTOR
+
+CRITICAL - This line is fucked up: !Grant, Cary|Notorious (1992) (TV)|
+
+CRITICAL - This line is fucked up: Corrections
+
+CRITICAL - This line is fucked up: -----------
+
+CRITICAL - This line is fucked up: (1) Correcting a name across the whole database
+
+CRITICAL - This line is fucked up:     If you spot a spelling error in a name in the database, use the keyword
+
+CRITICAL - This line is fucked up:       NAMECORRECT
+
+CRITICAL - This line is fucked up:     and the format:
+
+CRITICAL - This line is fucked up:       <current name>|<correct name>
+
+CRITICAL - This line is fucked up:     For example:
+
+CRITICAL - This line is fucked up:       NAMECORRECT
+
+CRITICAL - This line is fucked up:       Bogart, Humphry|Bogart, Humphrey|
+
+CRITICAL - This line is fucked up: (2) Replacing an individual entry
+
+CRITICAL - This line is fucked up:     Replacements can be made by deleting the incorrect entry and adding the 
+
+CRITICAL - This line is fucked up:     correct version. For example:
+
+CRITICAL - This line is fucked up:       ACTOR
+
+CRITICAL - This line is fucked up:       !Grant, Cary|Notorious (1992) (TV)|
+
+CRITICAL - This line is fucked up:       Grant, Cary|Notorious (1946)|||
+
+CRITICAL - This line is fucked up: (3) Other corrections
+
+CRITICAL - This line is fucked up:     Finally, if your correction cannot be expressed in the forms above, use
+
+CRITICAL - This line is fucked up:     the keyword:
+
+CRITICAL - This line is fucked up:       CORRECT
+
+CRITICAL - This line is fucked up:     and then include a description of your correction in a free text over as
+
+CRITICAL - This line is fucked up:     many lines as you need.
+
+CRITICAL - This line is fucked up: -----------------------------------------------------------------------------
+
+CRITICAL - This line is fucked up: COPYING POLICY
+
+CRITICAL - This line is fucked up: ==============
+
+CRITICAL - This line is fucked up: This file is copyright (c) 1990-2005 by The Internet Movie Database Ltd. All 
+
+CRITICAL - This line is fucked up: rights reserved.
+
+CRITICAL - This line is fucked up: Disclaimer
+
+CRITICAL - This line is fucked up: ----------
+
+CRITICAL - This line is fucked up:    
+
+CRITICAL - This line is fucked up:     This is a  database  of  movie  related  information  compiled  by
+
+CRITICAL - This line is fucked up:     Internet  Movie  Database  Ltd (IMDb). While every effort has been
+
+CRITICAL - This line is fucked up:     made to  ensure  the  accuracy  of  the  database  IMDb  gives  no
+
+CRITICAL - This line is fucked up:     warranty  as  to  the accuracy of the information contained in the
+
+CRITICAL - This line is fucked up:     database.  IMDb  reserves  the  right  to   withdraw   or   delete
+
+CRITICAL - This line is fucked up:     information at any time. 
+
+CRITICAL - This line is fucked up:        
+
+CRITICAL - This line is fucked up:     This service is provided for the information of users only. It  is
+
+CRITICAL - This line is fucked up:     not   provided  with  the  intention  that  users  rely  upon  the
+
+CRITICAL - This line is fucked up:     information for any purposes. Accordingly,  IMDb  shall  under  no
+
+CRITICAL - This line is fucked up:     circumstances  be liable for any loss or damage, including but not
+
+CRITICAL - This line is fucked up:     limited to loss of profits, goodwill or indirect or  consequential
+
+CRITICAL - This line is fucked up:     loss   arising   out   of  any  use  of  or  inaccuracies  in  the
+
+CRITICAL - This line is fucked up:     information. All warranties express or  implied  are  excluded  to
+
+CRITICAL - This line is fucked up:     the fullest extent permissible by law. 
+
+CRITICAL - This line is fucked up:        
+
+CRITICAL - This line is fucked up:     All information in this file  is  Copyright  2005  Internet  Movie
+
+CRITICAL - This line is fucked up:     Database  Limited.  Reproduction,  distribution or transmission by
+
+CRITICAL - This line is fucked up:     any means without the prior permission of IMDb is prohibited.  All
+
+CRITICAL - This line is fucked up:     rights reserved. 
+
+CRITICAL - This line is fucked up:     For further information contact <licensing@imdb.com>
+
+CRITICAL - This line is fucked up:        
+
+CRITICAL - This line is fucked up:          -------------------------------------------------------
+
+CRITICAL - This line is fucked up:    
+
+CRITICAL - This line is fucked up:     All data and software released by Internet Movie Database  Ltd  is
+
+CRITICAL - This line is fucked up:     freely  available  to  anyone  within certain limitations. You are
+
+CRITICAL - This line is fucked up:     encouraged to quote subsets of the database  in  USENET  articles,
+
+CRITICAL - This line is fucked up:     movie  related  FAQs,  magazine  articles etc. We do ask, however,
+
+CRITICAL - This line is fucked up:     that you make reference to the source of the data  and  provide  a
+
+CRITICAL - This line is fucked up:     pointer to the database for the benefit of the reader. 
+
+CRITICAL - This line is fucked up:        
+
+CRITICAL - This line is fucked up:     Permission is granted  by  the  copyright  holder  to  allow  free
+
+CRITICAL - This line is fucked up:     distribution  of  this  file  and  any  other part of the Internet
+
+CRITICAL - This line is fucked up:     Movie  Database  in  an  ELECTRONIC  FORM  ONLY,   providing   the
+
+CRITICAL - This line is fucked up:     following conditions are met: 
+
+CRITICAL - This line is fucked up:        
+
+CRITICAL - This line is fucked up:          1. NO FEE OF ANY KIND, however indirect, will be  charged
+
+CRITICAL - This line is fucked up:             for  its  distribution.  If  this file is being stored
+
+CRITICAL - This line is fucked up:             for  later  distribution  to  anyone   that   can   be
+
+CRITICAL - This line is fucked up:             construed   as   a   customer   of  yourself  or  your
+
+CRITICAL - This line is fucked up:             organisation YOU MUST contact Internet Movie  Database
+
+CRITICAL - This line is fucked up:             Ltd for permission. 
+
+CRITICAL - This line is fucked up:             
+
+CRITICAL - This line is fucked up:          2. Each  of  the  database  files  may   be   distributed
+
+CRITICAL - This line is fucked up:             individually  but  only  in an unaltered form. All the
+
+CRITICAL - This line is fucked up:             header and trailer information, including this  notice
+
+CRITICAL - This line is fucked up:             and  the  details  on how to access the database, must
+
+CRITICAL - This line is fucked up:             remain intact. 
+
+CRITICAL - This line is fucked up:             
+
+CRITICAL - This line is fucked up:          3. Specifically the files may NOT be  used  to  construct
+
+CRITICAL - This line is fucked up:             any  kind  of  on-line database (except for individual
+
+CRITICAL - This line is fucked up:             personal use). Clearance for  ALL  such  on-line  data
+
+CRITICAL - This line is fucked up:             resources   must  be  requested  from  Internet  Movie
+
+CRITICAL - This line is fucked up:             Database Ltd 
+
+CRITICAL - This line is fucked up:             
+
+CRITICAL - This line is fucked up:          4. In addition, copies of  the  Internet  Movie  Database
+
+CRITICAL - This line is fucked up:             frequently  asked  questions  list and additions guide
+
+CRITICAL - This line is fucked up:             must be made available in the same area / by the  same
+
+CRITICAL - This line is fucked up:             method as the other database files. 
+
+CRITICAL - This line is fucked up:          5. CD-ROM  distribution  is  prohibited  without  written
+
+CRITICAL - This line is fucked up:             permission from the Internet Movie Database Ltd 
+
+CRITICAL - This line is fucked up:             
+
+CRITICAL - This line is fucked up:     Distribution by e-mail, BBS and  Internet  systems  is  positively
+
+CRITICAL - This line is fucked up:     encouraged within these limitations. 
+
+CRITICAL - This line is fucked up:        
+
+CRITICAL - This line is fucked up:     The files and software which make up the  movie  database  may  be
+
+CRITICAL - This line is fucked up:     uploaded  to  commercial  BBS  systems  providing  that  the above
+
+CRITICAL - This line is fucked up:     conditions are met and no *additional* fees are applied above  the
+
+CRITICAL - This line is fucked up:     standard connect time or downloading charges. 
+
+CRITICAL - This line is fucked up:     For further info visit http://www.imdb.com/licensing/contact
+
+INFO - Finished with 196 fucked up line
+INFO - Parsing took 454.842497 seconds
+INFO - Parsing finished for item: actors
+INFO - ___________________
+INFO - Parsing actresses...
+INFO - Trying to find file: inputdata/actresses.list
+INFO - File found: inputdata/actresses.list
+CRITICAL - This line is fucked up: Sigmund, Monika		Asphalt (1951)  )  [Helli]  <28>
+
+CRITICAL - This line is fucked up: -----------------------------------------------------------------------------
+
+CRITICAL - This line is fucked up: SUBMITTING UPDATES
+
+CRITICAL - This line is fucked up: ==================
+
+CRITICAL - This line is fucked up: We rely on users of the database to submit corrections and additions to keep 
+
+CRITICAL - This line is fucked up: the list as accurate and complete as possible. The most convenient method
+
+CRITICAL - This line is fucked up: for submitting them is via the IMDb website.  Every page about a title or
+
+CRITICAL - This line is fucked up: person has an Update button near the bottom which takes through the
+
+CRITICAL - This line is fucked up: process.
+
+CRITICAL - This line is fucked up: KEYWORD INTERFACE
+
+CRITICAL - This line is fucked up: =================
+
+CRITICAL - This line is fucked up: The older by-email system is now deprecated, but can be allowed
+
+CRITICAL - This line is fucked up: for prolific reviewers or content site owners where large numbers of 
+
+CRITICAL - This line is fucked up: URLs to your information can be sent to us for inclusion on IMDb.
+
+CRITICAL - This line is fucked up: Contact us at http://imdb.com/helpdesk/contact
+
+CRITICAL - This line is fucked up: For further help see http://imdb.com/help/?adding/
+
+CRITICAL - This line is fucked up: -----------------------------------------------------------------------------
+
+CRITICAL - This line is fucked up: COPYING POLICY
+
+CRITICAL - This line is fucked up: ==============
+
+CRITICAL - This line is fucked up: This file is copyright (c) 1993-2005 by The Internet Movie Database Ltd. All 
+
+CRITICAL - This line is fucked up: rights reserved.
+
+CRITICAL - This line is fucked up: Disclaimer
+
+CRITICAL - This line is fucked up: ----------
+
+CRITICAL - This line is fucked up:    
+
+CRITICAL - This line is fucked up:     This is a  database  of  movie  related  information  compiled  by
+
+CRITICAL - This line is fucked up:     Internet  Movie  Database  Ltd (IMDb). While every effort has been
+
+CRITICAL - This line is fucked up:     made to  ensure  the  accuracy  of  the  database  IMDb  gives  no
+
+CRITICAL - This line is fucked up:     warranty  as  to  the accuracy of the information contained in the
+
+CRITICAL - This line is fucked up:     database.  IMDb  reserves  the  right  to   withdraw   or   delete
+
+CRITICAL - This line is fucked up:     information at any time. 
+
+CRITICAL - This line is fucked up:        
+
+CRITICAL - This line is fucked up:     This service is provided for the information of users only. It  is
+
+CRITICAL - This line is fucked up:     not   provided  with  the  intention  that  users  rely  upon  the
+
+CRITICAL - This line is fucked up:     information for any purposes. Accordingly,  IMDb  shall  under  no
+
+CRITICAL - This line is fucked up:     circumstances  be liable for any loss or damage, including but not
+
+CRITICAL - This line is fucked up:     limited to loss of profits, goodwill or indirect or  consequential
+
+CRITICAL - This line is fucked up:     loss   arising   out   of  any  use  of  or  inaccuracies  in  the
+
+CRITICAL - This line is fucked up:     information. All warranties express or  implied  are  excluded  to
+
+CRITICAL - This line is fucked up:     the fullest extent permissible by law. 
+
+CRITICAL - This line is fucked up:        
+
+CRITICAL - This line is fucked up:     All information in this file  is  Copyright  2005  Internet  Movie
+
+CRITICAL - This line is fucked up:     Database  Limited.  Reproduction,  distribution or transmission by
+
+CRITICAL - This line is fucked up:     any means without the prior permission of IMDb is prohibited.  All
+
+CRITICAL - This line is fucked up:     rights reserved. 
+
+CRITICAL - This line is fucked up:     For further info visit http://www.imdb.com/licensing/contact
+
+CRITICAL - This line is fucked up:        
+
+CRITICAL - This line is fucked up:          -------------------------------------------------------
+
+CRITICAL - This line is fucked up:    
+
+CRITICAL - This line is fucked up:     All data and software released by Internet Movie Database  Ltd  is
+
+CRITICAL - This line is fucked up:     freely  available  to  anyone  within certain limitations. You are
+
+CRITICAL - This line is fucked up:     encouraged to quote subsets of the database  in  USENET  articles,
+
+CRITICAL - This line is fucked up:     movie  related  FAQs,  magazine  articles etc. We do ask, however,
+
+CRITICAL - This line is fucked up:     that you make reference to the source of the data  and  provide  a
+
+CRITICAL - This line is fucked up:     pointer to the database for the benefit of the reader. 
+
+CRITICAL - This line is fucked up:        
+
+CRITICAL - This line is fucked up:     Permission is granted  by  the  copyright  holder  to  allow  free
+
+CRITICAL - This line is fucked up:     distribution  of  this  file  and  any  other part of the Internet
+
+CRITICAL - This line is fucked up:     Movie  Database  in  an  ELECTRONIC  FORM  ONLY,   providing   the
+
+CRITICAL - This line is fucked up:     following conditions are met: 
+
+CRITICAL - This line is fucked up:        
+
+CRITICAL - This line is fucked up:          1. NO FEE OF ANY KIND, however indirect, will be  charged
+
+CRITICAL - This line is fucked up:             for  its  distribution.  If  this file is being stored
+
+CRITICAL - This line is fucked up:             for  later  distribution  to  anyone   that   can   be
+
+CRITICAL - This line is fucked up:             construed   as   a   customer   of  yourself  or  your
+
+CRITICAL - This line is fucked up:             organisation YOU MUST contact Internet Movie  Database
+
+CRITICAL - This line is fucked up:             Ltd for permission. 
+
+CRITICAL - This line is fucked up:             
+
+CRITICAL - This line is fucked up:          2. Each  of  the  database  files  may   be   distributed
+
+CRITICAL - This line is fucked up:             individually  but  only  in an unaltered form. All the
+
+CRITICAL - This line is fucked up:             header and trailer information, including this  notice
+
+CRITICAL - This line is fucked up:             and  the  details  on how to access the database, must
+
+CRITICAL - This line is fucked up:             remain intact. 
+
+CRITICAL - This line is fucked up:             
+
+CRITICAL - This line is fucked up:          3. Specifically the files may NOT be  used  to  construct
+
+CRITICAL - This line is fucked up:             any  kind  of  on-line database (except for individual
+
+CRITICAL - This line is fucked up:             personal use). Clearance for  ALL  such  on-line  data
+
+CRITICAL - This line is fucked up:             resources   must  be  requested  from  Internet  Movie
+
+CRITICAL - This line is fucked up:             Database Ltd 
+
+CRITICAL - This line is fucked up:             
+
+CRITICAL - This line is fucked up:          4. In addition, copies of  the  Internet  Movie  Database
+
+CRITICAL - This line is fucked up:             frequently  asked  questions  list and additions guide
+
+CRITICAL - This line is fucked up:             must be made available in the same area / by the  same
+
+CRITICAL - This line is fucked up:             method as the other database files. 
+
+CRITICAL - This line is fucked up:          5. CD-ROM  distribution  is  prohibited  without  written
+
+CRITICAL - This line is fucked up:             permission from the Internet Movie Database Ltd 
+
+CRITICAL - This line is fucked up:             
+
+CRITICAL - This line is fucked up:     Distribution by e-mail, BBS and  Internet  systems  is  positively
+
+CRITICAL - This line is fucked up:     encouraged within these limitations. 
+
+CRITICAL - This line is fucked up:        
+
+CRITICAL - This line is fucked up:     The files and software which make up the  movie  database  may  be
+
+CRITICAL - This line is fucked up:     uploaded  to  commercial  BBS  systems  providing  that  the above
+
+CRITICAL - This line is fucked up:     conditions are met and no *additional* fees are applied above  the
+
+CRITICAL - This line is fucked up:     standard connect time or downloading charges. 
+
+CRITICAL - This line is fucked up:     For further info visit http://www.imdb.com/licensing/contact
+
+INFO - Finished with 94 fucked up line
+INFO - Parsing took 364.200613 seconds
+INFO - Parsing finished for item: actresses
+INFO - All parsing finished.
+INFO - Check out output folder: outputdata/2014-03-05_134709_ImdbParserOutput
